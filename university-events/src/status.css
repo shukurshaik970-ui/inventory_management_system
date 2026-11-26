@@ -1,0 +1,4 @@
+.status.status-dot{display:inline-flex;align-items:center;gap:5px}
+.status.status-dot::before{content:"";width:6px;height:6px;flex:none;border-radius:50%;background:#35805a}
+.status.status-dot.inactive::before{background:#c64f4f}
+.status.archived{background:#edf0ed;color:#111}
